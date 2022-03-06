@@ -1,0 +1,82 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(119, 116, 116);
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 210px;
+  height: 210px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 8px 8px 0px 0px;
+}
+
+.button {
+  background-color: rgb(3, 3, 63);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.contact {
+  margin-bottom: 36px;
+}
+
+.contact-icon {
+  margin-right: 14px;
+  width: 18px;
+}
+
+.contact-item {
+  margin-bottom: 4px;
+}
+
+.container {
+  background-color: lightgray;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  min-height: 100vh;
+  padding: 100px;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 760px) {
+  .name {
+    font-size: 32px;
+  }
+}
